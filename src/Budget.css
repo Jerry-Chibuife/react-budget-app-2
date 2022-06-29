@@ -1,0 +1,7 @@
+.budget-container{
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 14px 7px #b5b5b5;
+    min-height: 70%;
+    max-height: 100%;
+}

@@ -1,0 +1,80 @@
+.budgetBalance{
+    background-color: #1d3557;
+    height: 5%;
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    justify-content: space-around;
+    /*float: left;*/
+}
+
+.balance{
+    /*padding: 1%;*/
+    height: 7vh;
+    background-color: #f1faee;
+    color: #1d3557;
+    border-radius: 5px;
+    width: 15%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance-buttons{
+    width: 43%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.balance-buttons input{
+    height: 5vh;
+    width: 60%;
+    border-radius: 4px;
+    border: unset;
+    background-color: #f1faee;
+    color: #400d78;
+    text-align: center;
+    font-weight: bold;
+}
+
+.balance-buttons input:focus-visible{
+    outline: unset;
+    background-color: white;
+    color: #400d78;
+    font-weight: bold;
+}
+
+.balance-buttons button{
+    outline: unset;
+    padding: 1.8%;
+    border: none;
+    background-color: #f1faee;
+    color: #400d78;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.balance-button button{
+    outline: unset;
+    padding: 10% 50%;
+    border: none;
+    background-color: unset;
+    color: #f1faee;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.balance-button button:hover{
+    background-color: red;
+    color: white;
+}

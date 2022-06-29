@@ -1,0 +1,139 @@
+.budget-body{
+    padding: 2%;
+}
+
+.budget-entry-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-intro{
+    width: 50%;
+}
+
+.text-intro h1{
+    color: #2d0160;
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bolder;
+    background-color: #f1faee;
+    padding: 5px;
+}
+
+.text-intro h1 span{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: #f7f1d8;
+    padding: 5px;
+}
+
+.text-intro p{
+    color: black;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.budgetEntry{
+    margin-bottom: 2rem;
+    width: 30%;
+}
+
+.budgetEntry p{
+    margin: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.budgetEntry input{
+    height: 2rem;
+    width: 75%;
+    border-radius: 3px;
+    border: unset;
+    background-color: #f1faee;
+    color: #2d0160;
+    outline: unset;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.budgetEntry input:focus-visible{
+    background-color: rgb(214, 226, 247);
+    color: black
+}
+
+.budget-entry-container button{
+    background-color: #1d3557;
+    color: white;
+    border: unset;
+    outline: unset;
+    padding: 0.8em 4em;
+    height: fit-content;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.budget-details-container h1{
+    color: #2d0160;
+    font-size: 16px;
+    text-align: center;
+}
+
+.budget-details-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.budget-body-sectioned{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.budget-details-container table{
+    width: 100%;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    max-height: 30vh;
+    text-align: center;
+    background-color: black;
+}
+
+.table-header {
+    text-align: center;
+    background-color: #1d3557;
+    color: #f1faee;
+    height: 5vh;
+}
+
+.data-row{
+    text-align: center;
+    height: 1vh;
+    background-color: #f1faee;
+}
+
+.budget-details-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1{
+    color: #f1faee;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: bolder;
+    background-color: #1d3557;
+    padding: 0.2em 4em;
+    cursor: pointer;
+}
+
+.search-bar{
+
+}
